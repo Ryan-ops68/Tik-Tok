@@ -1,0 +1,22 @@
+class Tik Tok
+
+var hour,minute,second
+
+hr = hour();
+mn = minutes();
+sc = seconds();
+
+
+angleMode(DEGREES);
+
+
+map();
+
+scAngle = map(sc, 0, 60, 0, 360);
+
+
+
+stroke(255,0,0);
+strokeWeight(7);
+line(0,0,100,0);
+translate();
